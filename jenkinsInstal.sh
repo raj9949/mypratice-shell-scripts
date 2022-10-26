@@ -1,7 +1,7 @@
 #!/bin/bash 
 sudo apt-get update
 #run the following command to install JDK 11:
-sudo apt-get install openjdk-11-jdk
+sudo apt-get install openjdk-11-jdk -y
 curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
